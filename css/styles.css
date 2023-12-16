@@ -36,8 +36,18 @@
 }
 .main-content{
     height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer{
     height: 5vh;
+    background-color: gray;
+    color: white;    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
