@@ -75,12 +75,29 @@ color: white;
 }
 
 .landing-3{
-    height: 95vh;
+    height: 75vh;
     background-image: url("https://4.bp.blogspot.com/-4VDKkr83Kxk/WS2ElochaEI/AAAAAAAApBk/BFFyKscA3g87ZSjDViNRk8knuGp0IXa0QCLcB/s1600/stockholm.jpg");
     background-size: cover;
-    color: black;
+    color:white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .styled-table th, .styled-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .styled-table th {
+    background-color: #f2f2f2;
+  }
+  
