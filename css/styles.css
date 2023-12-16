@@ -26,7 +26,13 @@
 }
 .landing{
     height: 45vh;
-
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fe6%2F2c%2F44%2Fe62c444305accca7edd1fbebe922e093.jpg&f=1&nofb=1&ipt=c6ca10dfce345ad2a7144900d39deabc808ce437d8ea41e018f75c5c0dc61e91&ipo=images");
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .main-content{
     height: 45vh;
