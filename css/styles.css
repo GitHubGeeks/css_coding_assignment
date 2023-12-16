@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar{
+    height: 5vh;
+    background-color: grey;
+    color: white;
+    padding: 6px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.nav-list{
+    list-style: none;
+
+}
+
+.nav-list li{
+    display: inline;
+    margin: 0 10px;
+}
+.landing{
+    height: 45vh;
+
+}
+.main-content{
+    height: 45vh;
+}
+
+.footer{
+    height: 5vh;
+}
