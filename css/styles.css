@@ -24,8 +24,13 @@
     display: inline;
     margin: 0 10px;
 }
+
+.nav-list li a{
+text-decoration: none;
+color: white;
+}
 .landing{
-    height: 45vh;
+    height: 75vh;
     background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fe6%2F2c%2F44%2Fe62c444305accca7edd1fbebe922e093.jpg&f=1&nofb=1&ipt=c6ca10dfce345ad2a7144900d39deabc808ce437d8ea41e018f75c5c0dc61e91&ipo=images");
     background-size: cover;
     color: white;
@@ -35,7 +40,7 @@
     align-items: center;
 }
 .main-content{
-    height: 45vh;
+    height: 15vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -50,4 +55,32 @@
     justify-content: center;
     align-items: center;
 
+}
+
+#quote{
+    justify-content: center;
+    color: black;
+    padding: 10px;
+}
+
+.landing-2{
+    height: 95vh;
+    background-image: url("https://lh5.googleusercontent.com/JHdTSWe0Ja1FKVIItYQ2v5yDKPW5DGfL7HRG7_y49nf5WuFzEBFtJyBNWfahmG91czmTu6GuGmc_soiQ2fvdbLcO2dhFQ0gB-7sJhKAhAC51ZzRxJrbyzuJ6rzKG5PV1_i7mBiW8");
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing-3{
+    height: 95vh;
+    background-image: url("https://4.bp.blogspot.com/-4VDKkr83Kxk/WS2ElochaEI/AAAAAAAApBk/BFFyKscA3g87ZSjDViNRk8knuGp0IXa0QCLcB/s1600/stockholm.jpg");
+    background-size: cover;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
